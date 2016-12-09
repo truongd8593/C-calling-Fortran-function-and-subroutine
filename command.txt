@@ -1,0 +1,15 @@
+hp@ubuntu:/host/Users/HP/Downloads/FORTRAN CODES/08-12-2016$ gfortran sum.f90 -c -o sum.o
+hp@ubuntu:/host/Users/HP/Downloads/FORTRAN CODES/08-12-2016$ g++ sum.o call_fortran.cpp -o code.out
+hp@ubuntu:/host/Users/HP/Downloads/FORTRAN CODES/08-12-2016$ ./code.out
+Calling a Fortran function
+============================
+size = 5000
+sum = 5617.27
+
+Calling a Fortran subroutine
+===============================
+size = 5000
+sum = 5617.27
+
+Source: https://wiki.calculquebec.ca/w/C%2B%2B_:_appels_Fortran/en
+
